@@ -4,7 +4,6 @@ Given an array of numbers and an integer target, find two unique numbers in the 
 
 - The returned array should have the indices in ascending order.
 
-
 ---
 
 ### Tests

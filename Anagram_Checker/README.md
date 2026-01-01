@@ -4,7 +4,6 @@ Given two strings, determine if they are anagrams of each other (contain the sam
 
 - Ignore casing and white space.
 
-
 ---
 
 ### Tests
