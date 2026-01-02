@@ -4,6 +4,7 @@ def is_valid_number(s: str, base: int) -> bool:
 
     return all(char.upper() in valid_chars for char in s)
 
+
 # Tests
 print(is_valid_number("10101", 2)) # True
 print(is_valid_number("10201", 2)) # False

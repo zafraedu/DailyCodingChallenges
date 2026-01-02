@@ -10,6 +10,7 @@ def is_balanced(s: str) -> bool:
 
     return count_vowel_left == count_vowel_right
 
+
 # Tests
 print(is_balanced("racecar"))
 print(is_balanced("Lorem Ipsum"))

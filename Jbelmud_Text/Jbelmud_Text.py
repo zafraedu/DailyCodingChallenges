@@ -9,7 +9,8 @@ def jbelmu(text: str) -> str:
 
     return ' '.join(result)
 
-# Test
+
+# Tests
 print(jbelmu("hello world"))
 print(jbelmu("i love jumbled text"))
 print(jbelmu("freecodecamp is my favorite place to learn to code"))

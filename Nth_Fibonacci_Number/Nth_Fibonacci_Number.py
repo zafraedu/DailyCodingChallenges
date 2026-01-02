@@ -10,6 +10,7 @@ def nth_fibonacci(n: int) -> int:
 
     return b
 
+
 # Tests
 print(nth_fibonacci(4))
 print(nth_fibonacci(10))

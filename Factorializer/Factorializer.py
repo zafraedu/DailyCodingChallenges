@@ -4,6 +4,7 @@ def factorial(n):
         result *= i
     return result
 
+
 # Tests
 print(factorial(0))
 print(factorial(5))

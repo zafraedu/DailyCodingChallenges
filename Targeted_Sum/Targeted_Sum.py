@@ -11,6 +11,7 @@ def find_target(nums, target):
 
     return "Target not found"
 
+
 # Tests
 print(find_target([2, 7, 11, 15], 9))
 print(find_target([3, 2, 4, 5], 6))

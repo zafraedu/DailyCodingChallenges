@@ -11,6 +11,8 @@ def fibonacci_sequence(start_sequence: list, length: int) -> list:
 
     return sequence
 
+
+# Tests
 print(fibonacci_sequence([0, 1], 20))
 print(fibonacci_sequence([21, 32], 1))
 print(fibonacci_sequence([0, 1], 0))

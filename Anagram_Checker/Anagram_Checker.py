@@ -5,6 +5,7 @@ def are_anagrams(str1: str, str2: str) -> bool:
     clean_str2 = str2.replace(' ', '').lower()
     return Counter(clean_str1) == Counter(clean_str2) # sorted() is also an option
 
+
 # Tests
 print(are_anagrams("listen", "silent"))
 print(are_anagrams("School master", "The classroom"))

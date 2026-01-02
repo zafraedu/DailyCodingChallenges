@@ -2,6 +2,7 @@ def space_jam(s: str) -> str:
     s = s.replace(' ', '')
     return '  '.join(s).upper()
 
+
 # Tests
 print(space_jam("freeCodeCamp"))
 print(space_jam(' free Code Camp '))
